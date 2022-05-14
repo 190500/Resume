@@ -1,30 +1,20 @@
-export const mern = [
+export const angular = [
     {
       id: 1,
-      title: "mongodb",
+      title: "angular",
       img:
-        "assets/mongo.png",
-    },
-    {
-      id: 2,
-      title: "express.js",
-      img:
-        "assets/express-1.png",
-    },
-    {
-      id: 3,
-      title: "react.js",
-      img:
-        "assets/react.png",
-    },
-    {
-      id: 4,
-      title: "nodejs",
-      img:
-        "assets/node.png",
-    },
+        "assets/angular.png",
+    }
     
   ];
+
+  export const js = [
+    {
+      id: 1,
+      title:"js",
+      img:"assets/js.png"
+    }
+  ]
   
   export const devops = [
     {
@@ -71,7 +61,7 @@ export const mern = [
     },
     {
       id: 2,
-      title: "jenkins",
+      title: "jenkin",
       img:
         "assets/jenkins.png",
     },

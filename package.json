@@ -13,10 +13,10 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "ityped": "^1.0.3",
-    "node-sass": "^6.0.1",
+    "node-sass": "^7.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^5.0.1",
     "sass": "^1.42.1",
     "web-vitals": "^1.1.2"
   },
@@ -46,7 +46,6 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "devDependencies": {},
   "author": "Rhea Chawla",
   "license": "ISC"
 }

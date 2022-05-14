@@ -1,21 +1,19 @@
 import { useEffect, useState } from "react";
 import PortfolioList from "../PortfolioList/PortfolioList";
 import "./Portfolio.scss";
-import {
-  mern,
-  devops,
-  agile,
-  java,
-  tools,
-} from "../../data";
+import { angular,js, devops, agile, java, tools } from "../../data";
 
 export default function Portfolio() {
-  const [selected, setSelected] = useState("mern");
+  const [selected, setSelected] = useState("angular");
   const [data, setData] = useState([]);
   const list = [
     {
-      id: "mern",
-      title: "MERN STACK DEVELOPMENT",
+      id: "angular",
+      title: "Angular",
+    },
+    {
+      id: "js",
+      title: "JavaScript",
     },
     {
       id: "devops",
@@ -30,16 +28,18 @@ export default function Portfolio() {
       title: "Java",
     },
     {
-      id:"tools",
-      title:"Tools",
+      id: "tools",
+      title: "Tools",
     },
-    
   ];
 
   useEffect(() => {
     switch (selected) {
-      case "mern":
-        setData(mern);
+      case "angular":
+        setData(angular);
+        break;
+      case "js":
+        setData(js);
         break;
       case "devops":
         setData(devops);
@@ -54,7 +54,7 @@ export default function Portfolio() {
         setData(tools);
         break;
       default:
-        setData(mern);
+        setData(angular);
     }
   }, [selected]);
 
@@ -74,11 +74,7 @@ export default function Portfolio() {
       <div className="container">
         {data.map((d) => (
           <div className="item">
-            <img
-              src={d.img}
-              alt=""
-            />
-            
+            <img src={d.img} alt="" />
           </div>
         ))}
       </div>

@@ -6,6 +6,14 @@ export default function Works() {
   const data = [
     {
       id: "1",
+      icon:"./assets/globe.png",
+      title:"SLB-Project",
+      company:"EX Squared Solutions India",
+      desc:"Worked on several minor projects related to JavaScript and TypeScript(Angular). Moreover Adapted TDD Approach while doing JavaScript Projects",
+      img:"https://sixty13.com/img/design.svg"
+    },
+    {
+      id: "1",
       icon: "./assets/laptop.png",
       title: "ATP Management Tool",
       company: "Xebia",
@@ -42,7 +50,7 @@ export default function Works() {
       desc:
         "Designed a website for the company which would help people to find free itineraries for any destination they want to travel.",
       img:
-        "https://pic.pikbest.com/01/52/20/77spIkbEsTKAb.jpg-0.jpg!sw800",
+        "https://www.aaravinfotech.com/assets/images/pages/aarav-infotechs-web-design-services-15d8d9ff445ff3.svg",
     },
     {
       id: "5",
