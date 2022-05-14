@@ -61,7 +61,7 @@ export const angular = [
     },
     {
       id: 2,
-      title: "jenkin",
+      title: "jenkins",
       img:
         "assets/jenkins.png",
     },
